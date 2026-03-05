@@ -53,3 +53,118 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
+.search-section {
+  padding: 0 20px 20px;
+}
+
+.search-bar {
+  width: 100%;
+  background-color: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 14px;
+  padding: 14px 16px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.categories {
+  display: flex;
+  gap: 10px;
+  padding: 0 20px 20px;
+  overflow-x: auto;
+}
+
+.chip {
+  background-color: white;
+  border: 1.5px solid #EDE7DC;
+  border-radius: 14px;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.chip.selected {
+  background-color: #FFF3DC;
+  border-color: #E8860A;
+  color: #E8860A;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 12px;
+}
+
+.section-title {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.section-link {
+  color: #E8860A;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.artists-grid {
+  display: flex;
+  gap: 14px;
+  padding: 0 20px 20px;
+  overflow-x: auto;
+}
+
+.artist-card {
+  background-color: white;
+  border-radius: 18px;
+  overflow: hidden;
+  min-width: 160px;
+  cursor: pointer;
+}
+
+.artist-img {
+  height: 110px;
+  background: linear-gradient(135deg, #2D2118, #1A2820);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+
+.artist-info {
+  padding: 12px;
+}
+
+.artist-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0D0B08;
+  margin-bottom: 2px;
+}
+
+.artist-type {
+  font-size: 12px;
+  color: #756F68;
+  margin-bottom: 8px;
+}
+
+.artist-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.artist-price {
+  font-size: 12px;
+  font-weight: 600;
+  color: #0D0B08;
+}
+
+.artist-rating {
+  font-size: 12px;
+  color: #756F68;
+}
