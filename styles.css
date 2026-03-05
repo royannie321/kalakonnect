@@ -168,3 +168,29 @@ body {
   font-size: 12px;
   color: #756F68;
 }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+@media (max-width: 390px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .artists-grid {
+    padding: 0 20px 80px;
+  }
+}
